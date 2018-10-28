@@ -24,3 +24,6 @@
 
 ; Map goto-line to alt enter
 (global-set-key "\M-return" 'goto-line)
+
+; Disable C-z because I use it for something different at work.
+(global-unset-key (kbd "<C-z>"))
